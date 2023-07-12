@@ -1,0 +1,135 @@
+body {
+    font-family: 'Press Start 2P', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+  }
+  
+  .search-container {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+  }
+  
+  .search-icon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  #searchInput {
+    display: none;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+  /* General Styles */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Responsive Web Design */
+  
+  /* For small screens */
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    li {
+      margin-bottom: 5px;
+    }
+  
+    #searchInput {
+      width: 150px;
+    }
+  }
+  
+  /* For medium to large screens */
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    li {
+      margin-bottom: 10px;
+    }
+  
+    #searchInput {
+      width: 180px;
+    }
+  }
+  
+  /* For large screens */
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .container {
+      padding: 40px;
+    }
+  
+    h1 {
+      font-size: 48px;
+    }
+  
+    li {
+      margin-bottom: 15px;
+    }
+  
+    #searchInput {
+      width: 220px;
+    }
+  }
+  
